@@ -21,7 +21,7 @@ function buildTable(json1, headerlist, tableid, tableclass){
 		retString += "</tbody></table>";
 		return retString;
 	} else {
-		return ;
+		return;
 	}
 }
 function scrollTable(targetTable){
