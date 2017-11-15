@@ -111,7 +111,7 @@ function table2csv(tableName, fileName){
 }
 
 
-function scrollBaby(targetTable) {
+function scrollCSS(targetTable) {
 	var target = document.getElementById(targetTable);
 	var headers = target.getElementsByTagName('thead')[0].getElementsByTagName('tr')[0].getElementsByTagName('th');
 	var headers2 = target.getElementsByTagName('tbody')[0].getElementsByTagName('tr')[0].getElementsByTagName('td');
